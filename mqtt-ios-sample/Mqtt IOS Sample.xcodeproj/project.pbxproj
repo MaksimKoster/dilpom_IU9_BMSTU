@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C163CFE24DB2F5100B0364D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C163CFD24DB2F5100B0364D /* AppDelegate.swift */; };
+		4C163D0024DB2F5100B0364D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C163CFF24DB2F5100B0364D /* SceneDelegate.swift */; };
+		4C163D0224DB2F5100B0364D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C163D0124DB2F5100B0364D /* ViewController.swift */; };
+		4C163D0524DB2F5100B0364D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C163D0324DB2F5100B0364D /* Main.storyboard */; };
+		4C163D0724DB2F5200B0364D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C163D0624DB2F5200B0364D /* Assets.xcassets */; };
+		4C163D0A24DB2F5200B0364D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C163D0824DB2F5200B0364D /* LaunchScreen.storyboard */; };
+		54611B0BFC8D6226B43ECC87 /* Pods_Mqtt_IOS_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A26D9672A98C40D54CB192 /* Pods_Mqtt_IOS_Sample.framework */; };
+		B5159BD62A2BC2150000B836 /* ClickHouseNIO in Frameworks */ = {isa = PBXBuildFile; productRef = B5159BD52A2BC2150000B836 /* ClickHouseNIO */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C1EFF936C2A52A16CA5476A /* Pods-Mqtt IOS Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mqtt IOS Sample.release.xcconfig"; path = "Target Support Files/Pods-Mqtt IOS Sample/Pods-Mqtt IOS Sample.release.xcconfig"; sourceTree = "<group>"; };
+		4C163CFA24DB2F5100B0364D /* Mqtt IOS Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mqtt IOS Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C163CFD24DB2F5100B0364D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C163CFF24DB2F5100B0364D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C163D0124DB2F5100B0364D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C163D0424DB2F5100B0364D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C163D0624DB2F5200B0364D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C163D0924DB2F5200B0364D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C163D0B24DB2F5200B0364D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F5EC370E1B0A812558FAF6 /* Pods-Mqtt IOS Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mqtt IOS Sample.debug.xcconfig"; path = "Target Support Files/Pods-Mqtt IOS Sample/Pods-Mqtt IOS Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		D0A26D9672A98C40D54CB192 /* Pods_Mqtt_IOS_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mqtt_IOS_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C163CF724DB2F5100B0364D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54611B0BFC8D6226B43ECC87 /* Pods_Mqtt_IOS_Sample.framework in Frameworks */,
+				B5159BD62A2BC2150000B836 /* ClickHouseNIO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C163CF124DB2F5100B0364D = {
+			isa = PBXGroup;
+			children = (
+				4C163CFC24DB2F5100B0364D /* Mqtt IOS Sample */,
+				4C163CFB24DB2F5100B0364D /* Products */,
+				691ABA678A65FB092E84FB31 /* Pods */,
+				C4E7E9229C9E6513D43B2400 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C163CFB24DB2F5100B0364D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C163CFA24DB2F5100B0364D /* Mqtt IOS Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C163CFC24DB2F5100B0364D /* Mqtt IOS Sample */ = {
+			isa = PBXGroup;
+			children = (
+				4C163CFD24DB2F5100B0364D /* AppDelegate.swift */,
+				4C163CFF24DB2F5100B0364D /* SceneDelegate.swift */,
+				4C163D0124DB2F5100B0364D /* ViewController.swift */,
+				4C163D0324DB2F5100B0364D /* Main.storyboard */,
+				4C163D0624DB2F5200B0364D /* Assets.xcassets */,
+				4C163D0824DB2F5200B0364D /* LaunchScreen.storyboard */,
+				4C163D0B24DB2F5200B0364D /* Info.plist */,
+			);
+			path = "Mqtt IOS Sample";
+			sourceTree = "<group>";
+		};
+		691ABA678A65FB092E84FB31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79F5EC370E1B0A812558FAF6 /* Pods-Mqtt IOS Sample.debug.xcconfig */,
+				1C1EFF936C2A52A16CA5476A /* Pods-Mqtt IOS Sample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4E7E9229C9E6513D43B2400 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0A26D9672A98C40D54CB192 /* Pods_Mqtt_IOS_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C163CF924DB2F5100B0364D /* Mqtt IOS Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C163D0E24DB2F5200B0364D /* Build configuration list for PBXNativeTarget "Mqtt IOS Sample" */;
+			buildPhases = (
+				180E7919BB00909A5917C762 /* [CP] Check Pods Manifest.lock */,
+				4C163CF624DB2F5100B0364D /* Sources */,
+				4C163CF724DB2F5100B0364D /* Frameworks */,
+				4C163CF824DB2F5100B0364D /* Resources */,
+				9525B08E1E6FB860936D2C2F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mqtt IOS Sample";
+			packageProductDependencies = (
+				B5159BD52A2BC2150000B836 /* ClickHouseNIO */,
+			);
+			productName = "Mqtt IOS Sample";
+			productReference = 4C163CFA24DB2F5100B0364D /* Mqtt IOS Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C163CF224DB2F5100B0364D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = zsasko;
+				TargetAttributes = {
+					4C163CF924DB2F5100B0364D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4C163CF524DB2F5100B0364D /* Build configuration list for PBXProject "Mqtt IOS Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C163CF124DB2F5100B0364D;
+			packageReferences = (
+				B5159BD42A2BC2150000B836 /* XCRemoteSwiftPackageReference "ClickHouseNIO" */,
+			);
+			productRefGroup = 4C163CFB24DB2F5100B0364D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C163CF924DB2F5100B0364D /* Mqtt IOS Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C163CF824DB2F5100B0364D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C163D0A24DB2F5200B0364D /* LaunchScreen.storyboard in Resources */,
+				4C163D0724DB2F5200B0364D /* Assets.xcassets in Resources */,
+				4C163D0524DB2F5100B0364D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		180E7919BB00909A5917C762 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mqtt IOS Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9525B08E1E6FB860936D2C2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mqtt IOS Sample/Pods-Mqtt IOS Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mqtt IOS Sample/Pods-Mqtt IOS Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mqtt IOS Sample/Pods-Mqtt IOS Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C163CF624DB2F5100B0364D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C163D0224DB2F5100B0364D /* ViewController.swift in Sources */,
+				4C163CFE24DB2F5100B0364D /* AppDelegate.swift in Sources */,
+				4C163D0024DB2F5100B0364D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C163D0324DB2F5100B0364D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C163D0424DB2F5100B0364D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C163D0824DB2F5200B0364D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C163D0924DB2F5200B0364D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C163D0C24DB2F5200B0364D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C163D0D24DB2F5200B0364D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C163D0F24DB2F5200B0364D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F5EC370E1B0A812558FAF6 /* Pods-Mqtt IOS Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A49CW7VS9G;
+				INFOPLIST_FILE = "Mqtt IOS Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mqtt-IOS-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C163D1024DB2F5200B0364D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1EFF936C2A52A16CA5476A /* Pods-Mqtt IOS Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A49CW7VS9G;
+				INFOPLIST_FILE = "Mqtt IOS Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mqtt-IOS-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C163CF524DB2F5100B0364D /* Build configuration list for PBXProject "Mqtt IOS Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C163D0C24DB2F5200B0364D /* Debug */,
+				4C163D0D24DB2F5200B0364D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C163D0E24DB2F5200B0364D /* Build configuration list for PBXNativeTarget "Mqtt IOS Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C163D0F24DB2F5200B0364D /* Debug */,
+				4C163D1024DB2F5200B0364D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5159BD42A2BC2150000B836 /* XCRemoteSwiftPackageReference "ClickHouseNIO" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/patrick-zippenfenig/ClickHouseNIO";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5159BD52A2BC2150000B836 /* ClickHouseNIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5159BD42A2BC2150000B836 /* XCRemoteSwiftPackageReference "ClickHouseNIO" */;
+			productName = ClickHouseNIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4C163CF224DB2F5100B0364D /* Project object */;
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Diplom</string>
+    <string name="general_please_write_some_message">Please write some message</string>
+    <string name="general_submit">BD REQ</string>
+    <string name="general_sub">Subscribe</string>
+    <string name="general_unsub">Unsubscribe</string>
+    <string name="general_clean">Clean</string>
+    <string name="general_messages">Select Time : From (First Row) -----> To (Second Row)</string>
+    <string name="main_enter_some_message">Enter some message here</string>
+    <string name="textview" />
+</resources>
